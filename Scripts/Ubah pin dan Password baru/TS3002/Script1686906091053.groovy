@@ -19,13 +19,34 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cardlez.id')
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (3)'), '085156031316', 0)
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (1)'), 'admin123', 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (4)'), 0)
+'Hide keyboard'
+Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)'), 'admin123', 0)
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (2)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (3)'), 'admin', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (4)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (5)'), '123123', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (6)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (7)'), '123123', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tapAndHold(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.TextView - SIMPAN DAN LANJUTKAN'), 
+    5, 20)
 
