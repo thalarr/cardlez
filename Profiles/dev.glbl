@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>dev</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Imam Hermawan'</initValue>
+      <name>G_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'085156031316'</initValue>
+      <name>G_No_Hp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bogor'</initValue>
+      <name>G_Tempat_Lahir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'m.imam@idgi.co.id'</initValue>
+      <name>G_Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'331413241456'</initValue>
+      <name>G_NIK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2414523544621'</initValue>
+      <name>G_NPWP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tebet, Jakarta selatan'</initValue>
+      <name>G_Alamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BCA'</initValue>
+      <name>G_Nama_Bank</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0919010195'</initValue>
+      <name>G_Nomor_Rekening</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yayah rumayah'</initValue>
+      <name>G_Ibu_Kandung</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jajang Surajang'</initValue>
+      <name>G_Ayah_Kandung</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'08999999999'</initValue>
+      <name>G_No_Hp_Wali</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin123'</initValue>
+      <name>G_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>123123</initValue>
+      <name>G_Pin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Imam Hermawan'</initValue>
+      <name>G_Nama_Rekening</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

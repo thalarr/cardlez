@@ -39,24 +39,25 @@ int endY = device_Height * 0.70
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), '', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), GlobalVariable.G_Name, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
+
 
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (3)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (4)'), '0919010199', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (4)'), GlobalVariable.G_Nomor_Rekening, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (5)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6)'), 'Imam Hermawan', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6)'), GlobalVariable.G_Nama_Rekening, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
@@ -67,21 +68,21 @@ Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.CheckedTextView
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (7)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (8)'), 'Yayah Rokayah', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (8)'), GlobalVariable.G_Ibu_Kandung, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (9)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (10)'), 'Tatang Suratang', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (10)'), GlobalVariable.G_Ayah_Kandung, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (11)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (12)'), '089692099455', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (12)'), GlobalVariable.G_No_Hp_Wali, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()

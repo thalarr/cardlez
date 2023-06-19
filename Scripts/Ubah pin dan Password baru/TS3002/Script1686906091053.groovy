@@ -21,7 +21,7 @@ Mobile.startExistingApplication('com.cardlez.id')
 
 Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (1)'), 'admin123', 0)
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (1)'), GlobalVariable.G_Password, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
@@ -35,14 +35,14 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (4)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (5)'), '123123', 0)
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (5)'), GlobalVariable.G_Pin, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (6)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (7)'), '123123', 0)
+Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (7)'), GlobalVariable.G_Pin, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
