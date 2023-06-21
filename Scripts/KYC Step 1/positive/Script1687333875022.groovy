@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
-
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 

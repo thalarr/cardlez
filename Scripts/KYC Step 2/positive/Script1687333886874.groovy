@@ -17,38 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
-
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.CheckBox'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.EditText'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi (1)'), 'DKI Jakarta', 
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Provinsi (1)'), GlobalVariable.G_Provinsi, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - DKI Jakarta'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kota'), 0)
 
-Mobile.setText(findTestObject(''), 'Jakarta Selatan', 0)
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kota'), GlobalVariable.G_Kota, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Jakarta Selatan, Wil. Kota'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kecamatan'), 0)
 
-Mobile.setText(findTestObject(''), 'Tebet', 0)
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kecamatan'), GlobalVariable.G_Kecamatan, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Tebet'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kelurahan'), 0)
 
-Mobile.setText(findTestObject(''), 'Tebet Barat', 0)
+Mobile.setText(findTestObject('Object Repository/KYC2/android.widget.AutoCompleteTextView - Ketik Kelurahan'), GlobalVariable.G_Kelurahan, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - Tebet Barat'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.TextView - LANJUT'), 0)
-
-Mobile.closeApplication()
 

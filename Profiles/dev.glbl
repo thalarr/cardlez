@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Imam Hermawan'</initValue>
+      <initValue>'Muhammad Hermawan'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'085156031316'</initValue>
+      <initValue>'089692099455'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'m.imam@idgi.co.id'</initValue>
+      <initValue>'thalarr@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -78,5 +78,40 @@
       <description></description>
       <initValue>'Imam Hermawan'</initValue>
       <name>G_Nama_Rekening</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>G_Provinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>G_Kota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tebet'</initValue>
+      <name>G_Kecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tebet Barat'</initValue>
+      <name>G_Kelurahan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123454123'</initValue>
+      <name>G_Nomor_Induk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bekasi'</initValue>
+      <name>G_Alamat_Kerja1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tanggerang'</initValue>
+      <name>G_Alamat_Kerja2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

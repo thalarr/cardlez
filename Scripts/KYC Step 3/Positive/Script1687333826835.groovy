@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
-
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
@@ -53,6 +51,4 @@ Mobile.tap(findTestObject('KYC1/android.widget.Button'), 0)
 Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.TextView - LANJUT (1)'), 0)
-
-Mobile.closeApplication()
 

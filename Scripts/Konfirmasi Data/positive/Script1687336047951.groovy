@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
-
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
@@ -42,7 +40,7 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.tap(findTestObject('KYC1/Konfirm Data - Kode referral'), 0)
 
-Mobile.setText(findTestObject('KYC1/Konfirm Data - Kode referral (1)'), 'asddd', 0)
+Mobile.setText(findTestObject('KYC1/Konfirm Data - Kode referral (1)'), 'CTL12306001', 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
