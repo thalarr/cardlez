@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'089692099455'</initValue>
+      <initValue>'085156031316'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>123123</initValue>
+      <initValue>'123123'</initValue>
       <name>G_Pin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
