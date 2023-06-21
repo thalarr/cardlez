@@ -57,12 +57,12 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Jajang Surajang'</initValue>
-      <name>G_Ayah_Kandung</name>
+      <name>G_Nama_Kontak_Darurat</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'08999999999'</initValue>
-      <name>G_No_Hp_Wali</name>
+      <name>G_Nomor_Kontak_Darurat</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

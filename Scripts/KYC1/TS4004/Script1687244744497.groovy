@@ -39,7 +39,7 @@ int endY = device_Height * 0.70
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), '', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), GlobalVariable.G_Name, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
@@ -64,7 +64,7 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (5)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6)'), GlobalVariable.G_Nama_Rekening, 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6)'), '', 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()

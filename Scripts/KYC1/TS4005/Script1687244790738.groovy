@@ -39,7 +39,7 @@ int endY = device_Height * 0.70
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), '', 0)
+Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (1)'), GlobalVariable.G_Name, 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
@@ -70,36 +70,3 @@ Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (6
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Spinner'), 0)
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.CheckedTextView - S-1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (7)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (8)'), GlobalVariable.G_Ibu_Kandung, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (9)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (10)'), GlobalVariable.G_Nama_Kontak_Darurat, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (11)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (12)'), GlobalVariable.G_Nomor_Kontak_Darurat, 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.EditText (13)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/KYC1/android.widget.EditText (14)'), 'Ayah Kandung', 0)
-
-'Hide keyboard'
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('KYC1/android.widget.TextView - LANJUT'), 0)
-
