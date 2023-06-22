@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
-
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
@@ -57,7 +55,7 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (4)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.view.View - 1'), 0)
+Mobile.tap(findTestObject('Registrasi via hp/android.view.View - 2'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Button - OK'), 0)
 
@@ -137,5 +135,5 @@ Mobile.tapAndHold(findTestObject('Object Repository/Registrasi via hp/android.wi
 
 Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Button - YA'), 20)
 
-Mobile.delay(25)
+Mobile.delay(30)
 

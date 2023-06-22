@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez -
 WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/span_Persetujuan Member Registrasi Baru'))
 
 WebUI.setText(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
-    '085156031316')
+    '085710377891')
 
 WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4_1'))
 
