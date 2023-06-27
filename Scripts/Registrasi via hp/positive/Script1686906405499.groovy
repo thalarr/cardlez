@@ -43,8 +43,6 @@ Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Ed
 
 Mobile.setText(findTestObject('Registrasi via hp/android.widget.EditText (19)'), GlobalVariable.G_Name, 0)
 
-Mobile.delay(5)
-
 'Hide keyboard'
 Mobile.hideKeyboard()
 

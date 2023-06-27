@@ -21,12 +21,23 @@ WebUI.callTestCase(findTestCase('Aktivasi member/Login cdlz'), [:], FailureHandl
 
 WebUI.navigateToUrl('https://member.cardlez.com/#/pages/dashboard')
 
-WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/span_Member'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/span_Member'))
 
-WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/span_Persetujuan Member Registrasi Baru'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/span_Persetujuan Member Registrasi Baru'))
 
-WebUI.setText(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
-    '085710377891')
+WebUI.setText(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
+    GlobalVariable.G_No_Hp)
 
-WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4_1'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4_1'))
+
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/i_Actions_nb-edit'))
+
+WebUI.setText(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Limit Pinjaman_selectedLimit'), 
+    GlobalVariable.G_Limit_Pinjaman)
+
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_Approve'))
+
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_Yes'))
+
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_OK'))
 

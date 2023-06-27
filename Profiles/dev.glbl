@@ -6,12 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi'</initValue>
+      <initValue>'cdlz'</initValue>
+      <name>G_Code_Company</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Registrasi tiga'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0800000001'</initValue>
+      <initValue>'0800000003'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,17 +26,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi1@gmail.com'</initValue>
+      <initValue>'registrasi3@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3314132414511'</initValue>
+      <initValue>'3314132414533'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2414523544611'</initValue>
+      <initValue>'2414523544633'</initValue>
       <name>G_NPWP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +81,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi 1'</initValue>
+      <initValue>'Registrasi tiga'</initValue>
       <name>G_Nama_Rekening</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -101,7 +106,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123454111'</initValue>
+      <initValue>'123454133'</initValue>
       <name>G_Nomor_Induk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -113,5 +118,10 @@
       <description></description>
       <initValue>'Tanggerang'</initValue>
       <name>G_Alamat_Kerja2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'500000'</initValue>
+      <name>G_Limit_Pinjaman</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
