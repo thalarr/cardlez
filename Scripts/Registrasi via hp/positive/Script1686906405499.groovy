@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Get Width Height and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
@@ -39,8 +41,9 @@ Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Te
 
 Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (1)'), GlobalVariable.G_Name, 
-    0)
+Mobile.setText(findTestObject('Registrasi via hp/android.widget.EditText (19)'), GlobalVariable.G_Name, 0)
+
+Mobile.delay(5)
 
 'Hide keyboard'
 Mobile.hideKeyboard()

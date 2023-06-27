@@ -19,11 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cardlez.id')
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Bukalapak/android.widget.ImageView'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), 'DEMO', 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Bukalapak/android.widget.ImageView (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Bukalapak/android.widget.EditText'), 0)
 
-WebUI.callTestCase(findTestCase('login user imam'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Bukalapak/android.widget.EditText (1)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Transaksi PPOB/Bukalapak/android.widget.EditText (2)'), '7008000000000050', 
+    0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Bukalapak/android.widget.Button - LANJUT'), 0)
 

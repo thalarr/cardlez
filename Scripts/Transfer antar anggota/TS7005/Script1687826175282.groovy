@@ -16,14 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import io.appium.java_client.android.AndroidDriver as AndroidDriver
+import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
+import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
 Mobile.startExistingApplication('com.cardlez.id')
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.ImageView'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), 'DEMO', 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - Antar Rekening Cardlez'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.RelativeLayout'), 0)
 
-WebUI.callTestCase(findTestCase('login user imam'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.RelativeLayout (1)'), 0)
+
+Mobile.closeApplication()
 
