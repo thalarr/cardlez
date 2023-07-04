@@ -23,7 +23,8 @@ Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText (4)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)'), GlobalVariable.G_Password, 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (5)'), GlobalVariable.G_Password_Default, 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk (1)'), 0)
 

@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.delay(5)
+
 Mobile.tap(findTestObject('Object Repository/KYC1/Step4 - LANJUT'), 0)
 

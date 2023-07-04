@@ -17,13 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cardlez.id')
-
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), GlobalVariable.G_Code_Company, 0)
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.TextView - Masuk'), 0)
-
-WebUI.callTestCase(findTestCase('login user imam'), [:], FailureHandling.STOP_ON_FAILURE)
 
