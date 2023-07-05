@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login cdlz</name>
+   <name>Login admin panel</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>235e2a19-825d-4e9e-ba7e-276defa21c6b</testCaseGuid>

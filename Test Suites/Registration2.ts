@@ -22,7 +22,7 @@
       <guid>e51c5a7f-b0c9-4fc4-b6fa-054257cde1dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login default</testCaseId>
+      <testCaseId>Test Cases/Login/login default</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

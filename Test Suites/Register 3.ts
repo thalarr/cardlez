@@ -15,7 +15,7 @@
       <guid>df3efecf-702a-4c77-81e6-97e11a75afe9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Aktivasi member/Login cdlz</testCaseId>
+      <testCaseId>Test Cases/Login/Login admin panel</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
