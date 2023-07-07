@@ -11,17 +11,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'320123920198'</initValue>
+      <initValue>'320123920197'</initValue>
       <name>KTP_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0800000008'</initValue>
+      <initValue>'0800000006'</initValue>
       <name>Telp_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi8@gmail.com'</initValue>
+      <initValue>'registrasi6@gmail.com'</initValue>
       <name>Email_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,5 +33,10 @@
       <description></description>
       <initValue>'Jakarta'</initValue>
       <name>Tempat_Lahir_Anggota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CTL12307001'</initValue>
+      <name>No_Cif</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
