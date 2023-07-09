@@ -23,6 +23,7 @@ WebUI.navigateToUrl('https://hasanah.invelli.com/general/adminlogin/')
 
 WebUI.setText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_username'), 'root@ezkop.co.id')
 
+'ezkop7891'
 WebUI.setEncryptedText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_password'), 'VVGKRFI2ycwJz4lQal3dWg==')
 
 WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Page_/button_Login'))
