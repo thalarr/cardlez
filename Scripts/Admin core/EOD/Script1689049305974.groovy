@@ -19,24 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login core'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/a_Accounting'))
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/span_Accounting'))
 
-WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/a_Report'))
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/a_Transaction'))
 
-WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/a_Report_1'))
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/a_End Of Day'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/select_Daftar Transaksi GL                 _726989'), 
-    '8', true)
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/a_End Of Day Month'))
 
-WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/button_Search'))
+WebUI.navigateToUrl('https://hasanah.invelli.com/eod/')
 
-WebUI.setText(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/input_Tanggal Awal_datestart'), 
-    '4/7/2023')
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/a_Logout'))
 
-WebUI.setText(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/input_Tanggal Akhir_datefinish'), 
-    '7/7/2023')
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/button_OK'))
 
-WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/div_CabangKSP Makmur Karya Sejahtera'))
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/button_End Of Day'))
 
-WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/button_Search_1'))
+WebUI.click(findTestObject('Object Repository/Web/Accounting/EOD/Page_- Invelli Microfinance System/button_OK'))
 

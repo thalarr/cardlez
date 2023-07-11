@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ismanualtransfer'</initValue>
+      <initValue>'istransferauthor'</initValue>
       <name>Masterdata_Configuration_Key</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0'</initValue>
+      <initValue>'1'</initValue>
       <name>Masterdata_Configuration_Value</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -22,7 +22,7 @@
       <guid>5ad8143f-b47e-4563-bb51-f8a0e1208547</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registrasi via aktivasi/Simpanan koperasi - otorisasi pembukaan</testCaseId>
+      <testCaseId>Test Cases/Admin core/Simpanan koperasi - otorisasi pembukaan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

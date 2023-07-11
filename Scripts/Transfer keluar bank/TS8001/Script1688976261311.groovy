@@ -21,6 +21,8 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
+WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - Pencairan Dana ke Bank'), 0)
