@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi empat'</initValue>
+      <initValue>'Jhon Doe'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'085710377891'</initValue>
+      <initValue>'08000000012'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,17 +26,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi4@gmail.com'</initValue>
+      <initValue>'2 Jul 1999'</initValue>
+      <name>G_Tanggal_Lahir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'wmendik@siyonastudio.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3314132414544'</initValue>
+      <initValue>'331413241789'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2414523544644'</initValue>
+      <initValue>'241452354689'</initValue>
       <name>G_NPWP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi empat'</initValue>
+      <initValue>'Jhon Doe'</initValue>
       <name>G_Nama_Rekening</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

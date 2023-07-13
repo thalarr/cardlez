@@ -54,11 +54,7 @@ Mobile.setText(findTestObject('Object Repository/Registrasi via hp/android.widge
 'Hide keyboard'
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (4)'), 0)
-
-Mobile.tap(findTestObject('Registrasi via hp/android.view.View - 2'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.Button - OK'), 0)
+Mobile.setText(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (4)'), GlobalVariable.G_Tanggal_Lahir, 0)
 
 Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (5)'), 0)
 
