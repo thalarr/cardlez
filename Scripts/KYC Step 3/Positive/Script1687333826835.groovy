@@ -35,6 +35,8 @@ int startY = device_Height * 0.30
 'Storing the endY value'
 int endY = device_Height * 0.70
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC1/android.widget.Button - YA'), 0)

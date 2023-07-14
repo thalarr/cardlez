@@ -34,7 +34,7 @@ WebUI.setText(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Mi
     '4/7/2023')
 
 WebUI.setText(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/input_Tanggal Akhir_datefinish'), 
-    '7/7/2023')
+    '13/7/2023')
 
 WebUI.click(findTestObject('Object Repository/Web/Accounting/Page_- Invelli Microfinance System/div_CabangKSP Makmur Karya Sejahtera'))
 

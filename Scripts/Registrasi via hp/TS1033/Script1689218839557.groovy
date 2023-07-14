@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (20)'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Registrasi via hp/android.widget.EditText (21)'), '', 0)

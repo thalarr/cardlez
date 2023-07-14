@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi delapan'</initValue>
+      <initValue>'Registrasi dua'</initValue>
       <name>Nama_Anggota</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'CTL12307001'</initValue>
+      <initValue>'CTL12307005'</initValue>
       <name>No_Cif</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

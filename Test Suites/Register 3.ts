@@ -22,7 +22,7 @@
       <guid>2442ce83-5cb6-4971-a359-26d92bfa34d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Aktivasi member/Aktivasi member</testCaseId>
+      <testCaseId>Test Cases/Persetujuan member aktivasi/Persetujuan aktivasi member</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

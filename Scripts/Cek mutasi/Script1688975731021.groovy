@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Cek mutasi/android.widget.TextView - Detail'), 0)
+Mobile.tap(findTestObject('Object Repository/Cek mutasi/android.widget.ImageView'), 0)
+
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Cek mutasi/android.widget.ImageView (1)'), 0)
 

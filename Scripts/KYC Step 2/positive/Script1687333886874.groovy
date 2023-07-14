@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('com.cardlez.id')
+
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.CheckBox'), 0)
 
 Mobile.tap(findTestObject('Object Repository/KYC2/android.widget.EditText'), 0)

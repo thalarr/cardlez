@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Jhon Doe'</initValue>
+      <initValue>'Registrasi dua belas'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'08000000012'</initValue>
+      <initValue>'+62800000012'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,17 +26,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2 Jul 1999'</initValue>
+      <initValue>'13 Jun 2006'</initValue>
       <name>G_Tanggal_Lahir</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'wmendik@siyonastudio.com'</initValue>
+      <initValue>'registrasi12@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'331413241789'</initValue>
+      <initValue>'234234234234'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bfjg9562'</initValue>
+      <initValue>'sdtc9052'</initValue>
       <name>G_Password_Default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,8 +86,18 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'admin123'</initValue>
+      <name>G_Password_Confirmation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'123123'</initValue>
       <name>G_Pin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>G_Pin_Confirmation</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -116,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123454144'</initValue>
+      <initValue>'123454112'</initValue>
       <name>G_Nomor_Induk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

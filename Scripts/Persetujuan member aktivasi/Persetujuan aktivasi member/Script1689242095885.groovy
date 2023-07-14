@@ -19,22 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login admin panel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/a_Member'))
+WebUI.navigateToUrl('https://member.cardlez.com/#/pages/dashboard')
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/span_Aktivasi Member'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/span_Member'))
 
-WebUI.setText(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/input_Kode Member_cif'), 
-    GlobalVariable.No_Cif)
+WebUI.click(findTestObject('Web/Aktivasi member/Page_Cardlez - Admin Panel/span_Persetujuan Member Aktivasi'))
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/button_Check'))
+WebUI.setText(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
+    GlobalVariable.G_No_Hp)
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/input'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4_1'))
 
-WebUI.click(findTestObject('Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/div_Simpanan Mobile - Anggota Koperasi'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/i_Actions_nb-edit'))
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/button_Save'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_Approve'))
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_Yes'))
 
-//WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/get no cif/Page_Cardlez - Admin Panel/button_OK'))
+WebUI.click(findTestObject('Object Repository/Web/Aktivasi member/Page_Cardlez - Admin Panel/Page_Cardlez - Admin Panel/button_OK'))
 

@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'150000'</initValue>
+      <initValue>'100000'</initValue>
       <name>Setoran_3_1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

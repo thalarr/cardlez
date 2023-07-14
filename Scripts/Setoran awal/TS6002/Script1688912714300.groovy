@@ -44,25 +44,5 @@ WebUI.setText(findTestObject('Object Repository/Setoran awal/Page_- Invelli Micr
 
 WebUI.click(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/button_Simpan'))
 
-//WebUI.click(findTestObject('Setoran awal/Page_- Invelli Microfinance System/button_OK'))
-WebUI.navigateToUrl('https://hasanah.invelli.com/tellertransaction/')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/span_Data Baru'))
-
-WebUI.click(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/i_Nomor Rekening_fa fa-folder'))
-
-WebUI.setText(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/input'), GlobalVariable.HP_2)
-
-WebUI.sendKeys(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/input'), Keys.chord(Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/a_Pilih'))
-
-WebUI.setText(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/input_Nominal_Amount'), 
-    GlobalVariable.Setoran_2_2)
-
-WebUI.click(findTestObject('Object Repository/Setoran awal/Page_- Invelli Microfinance System/button_Simpan'))
+WebUI.click(findTestObject('Setoran awal/Page_- Invelli Microfinance System/button_OK'))
 

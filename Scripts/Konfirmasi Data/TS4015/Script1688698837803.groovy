@@ -42,7 +42,7 @@ Mobile.swipe(startX, endY, endX, startY)
 
 Mobile.tap(findTestObject('KYC1/Konfirm Data - Kode referral'), 0)
 
-Mobile.setText(findTestObject('KYC1/Konfirm Data - Kode referral (1)'), 'asddd', 0)
+Mobile.setText(findTestObject('KYC1/Konfirm Data - Kode referral (1)'), 'CTL45606001', 0)
 
 'Hide keyboard'
 Mobile.hideKeyboard()
