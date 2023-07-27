@@ -17,18 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.ImageView'), 0)
+WebUI.callTestCase(findTestCase('Login/Login admin panel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.EditText'), 0)
+WebUI.click(findTestObject('Object Repository/Web/Biller/Page_Cardlez - Admin Panel/span_Biller'))
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.EditText (1)'), 0)
+WebUI.click(findTestObject('Object Repository/Web/Biller/Page_Cardlez - Admin Panel/span_Settlement'))
 
-Mobile.setText(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.EditText (2)'), GlobalVariable.PLN_Prabayar , 
-    0)
+WebUI.click(findTestObject('Object Repository/Web/Biller/Page_Cardlez - Admin Panel/input_Total Invelli  Rp. 0_ng-untouched ng-_5fdde0'))
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.Button - LANJUT'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.Button - LANJUT (1)'), 0)
-
-Mobile.closeApplication()
+WebUI.click(findTestObject('Web/Biller/Page_Cardlez - Admin Panel/button_Settle'))
 

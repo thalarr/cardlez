@@ -17,18 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.ImageView'), 0)
+WebUI.callTestCase(findTestCase('Login/Login admin panel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.EditText'), 0)
+WebUI.click(findTestObject('Object Repository/Web/Master data/configuration/Page_Cardlez - Admin Panel/span_Master Data'))
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.EditText (1)'), 0)
+WebUI.click(findTestObject('Object Repository/Web/Master data/configuration/Page_Cardlez - Admin Panel/span_Configuration'))
 
-Mobile.setText(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.EditText (2)'), GlobalVariable.PLN_Prabayar , 
-    0)
+WebUI.setText(findTestObject('Object Repository/Web/Master data/configuration/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
+    'istransferauthor')
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.Button - LANJUT'), 0)
+WebUI.click(findTestObject('Web/Master data/configuration/Page_Cardlez - Admin Panel/i_isTransferAuthorJob_nb-edit'))
 
-Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/PLN Prabayar/android.widget.Button - LANJUT (1)'), 0)
+WebUI.setText(findTestObject('Object Repository/Web/Master data/configuration/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4_1'), 
+    GlobalVariable.Masterdata_Configuration_Value)
 
-Mobile.closeApplication()
+WebUI.click(findTestObject('Object Repository/Web/Master data/configuration/Page_Cardlez - Admin Panel/i_Actions_nb-checkmark'))
+
+WebUI.click(findTestObject('Object Repository/Web/Master data/configuration/Page_Cardlez - Admin Panel/button_OK'))
 

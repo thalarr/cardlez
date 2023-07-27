@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget
 
 Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.EditText (1)'), 0)
 
-Mobile.setText(findTestObject('Transaksi PPOB/Pulsa/android.widget.EditText (2)'), '081339372389', 0)
+Mobile.setText(findTestObject('Transaksi PPOB/Pulsa/android.widget.EditText (2)'), GlobalVariable.No_Hp, 0)
 
 Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Button - LANJUT (2)'), 0)
 

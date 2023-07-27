@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Gojek/android.widget
 
 Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Gojek/android.widget.EditText (1)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Transaksi PPOB/Gojek/android.widget.EditText (2)'), '081212231131', 0)
+Mobile.setText(findTestObject('Object Repository/Transaksi PPOB/Gojek/android.widget.EditText (2)'), GlobalVariable.No_Hp, 0)
 
 Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Gojek/android.widget.Button - LANJUT'), 0)
 

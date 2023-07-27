@@ -34,4 +34,14 @@
       <initValue>'3'</initValue>
       <name>Pin_6</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'541300871237'</initValue>
+      <name>PLN_Prabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'089806911665'</initValue>
+      <name>No_Hp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
