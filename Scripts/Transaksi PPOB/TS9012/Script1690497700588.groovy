@@ -23,36 +23,23 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 
 WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.setText(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText'), '701075323', 0)
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - Pencairan Dana ke Bank (1)'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.EditText'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.EditText (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (3)'), 0)
+Mobile.setText(findTestObject('Transaksi PPOB/Pulsa/android.widget.EditText (2)'), GlobalVariable.No_Hp, 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.ImageView (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Button - LANJUT (2)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.AutoCompleteTextView - Search'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Spinner'), 0)
 
-Mobile.setText(findTestObject('Transfer keluar bank/android.widget.AutoCompleteTextView - Search'), 'Bank Central Asia', 
-    0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.CheckedTextView - 10.000'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - Bank Central Asia (BCA)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.Button - LANJUT (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (4)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (5)'), '701075323', 0)
-
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.Button - LANJUT (1)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (1)'), '10000', 0)
-
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.Button - LANJUT'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - LANJUT'), 0)
+Mobile.tap(findTestObject('Object Repository/Transaksi PPOB/Pulsa/android.widget.TextView - LANJUT'), 0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -67,6 +54,4 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
-
-WebUI.callTestCase(findTestCase('Cek mutasi'), [:], FailureHandling.STOP_ON_FAILURE)
 

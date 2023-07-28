@@ -19,23 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login admin panel'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/span_Accounting'))
+WebUI.click(findTestObject('Object Repository/Web/Biller/Page_Cardlez - Admin Panel/span_Biller'))
 
-WebUI.click(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/a_Transactions'))
+WebUI.click(findTestObject('Object Repository/Web/Biller/Page_Cardlez - Admin Panel/span_Settlement'))
 
-WebUI.click(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/span_Persetujuan Transfer'))
+WebUI.click(findTestObject('Object Repository/Web/Biller/Page_Cardlez - Admin Panel/input_Total Invelli  Rp. 0_ng-untouched ng-_5fdde0'))
 
-WebUI.setText(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
-    '3312306008')
-
-WebUI.sendKeys(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/input_Actions_form-control ng-untouched ng-_a2d6c4'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/i_Actions_nb-edit'))
-
-WebUI.click(findTestObject('Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/button_Setuju'))
-
-WebUI.click(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/button_Ya'))
-
-WebUI.click(findTestObject('Object Repository/Web/Transaction/Persetujuan transfer/Page_Cardlez - Admin Panel/button_OK'))
+WebUI.click(findTestObject('Web/Biller/Page_Cardlez - Admin Panel/button_Settle'))
 

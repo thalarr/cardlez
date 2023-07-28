@@ -23,36 +23,42 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 
 WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.setText(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText'), '701075323', 0)
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - Pencairan Dana ke Bank (1)'), 
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - Antar Rekening Cardlez'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (2)'), 0)
+Mobile.tap(findTestObject('Transfer antar anggota/android.widget.EditText (6)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (3)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.ImageView (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.AutoCompleteTextView - Search'), 0)
-
-Mobile.setText(findTestObject('Transfer keluar bank/android.widget.AutoCompleteTextView - Search'), 'Bank Central Asia', 
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (1)'), GlobalVariable.Nomor_Rekening, 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - Bank Central Asia (BCA)'), 0)
+'Hide keyboard'
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.Button - LANJUT'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (5)'), '701075323', 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (2)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.Button - LANJUT (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (3)'), '50000', 0)
 
-Mobile.setText(findTestObject('Object Repository/Transfer keluar bank/android.widget.EditText (1)'), '10000', 0)
+'Hide keyboard'
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.Button - LANJUT'), 0)
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (4)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer keluar bank/android.widget.TextView - LANJUT'), 0)
+Mobile.setText(findTestObject('Object Repository/Transfer antar anggota/android.widget.EditText (5)'), 'keterangan', 0)
+
+'Hide keyboard'
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.Button - LANJUT (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Transfer antar anggota/android.widget.TextView - LANJUT'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -67,6 +73,4 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3))
-
-WebUI.callTestCase(findTestCase('Cek mutasi'), [:], FailureHandling.STOP_ON_FAILURE)
 
