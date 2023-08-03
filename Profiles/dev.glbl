@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Registrasi dua belas'</initValue>
+      <initValue>'Registrasi enam belas'</initValue>
       <name>G_Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'+62800000012'</initValue>
+      <initValue>'0800000016'</initValue>
       <name>G_No_Hp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,12 +31,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'registrasi12@gmail.com'</initValue>
+      <initValue>'registrasi16@gmail.com'</initValue>
       <name>G_Email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'234234234234'</initValue>
+      <initValue>'234234234216'</initValue>
       <name>G_NIK</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sdtc9052'</initValue>
+      <initValue>'ahum6638'</initValue>
       <name>G_Password_Default</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123454112'</initValue>
+      <initValue>'123454116'</initValue>
       <name>G_Nomor_Induk</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -141,7 +141,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'5000000'</initValue>
+      <initValue>'10000000'</initValue>
       <name>G_Limit_Pinjaman</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000000'</initValue>
+      <name>G_Limit_Paylater</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

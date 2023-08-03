@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Prepare'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Ubah pin dan Password baru/android.widget.EditText (1)'), GlobalVariable.G_Password, 
