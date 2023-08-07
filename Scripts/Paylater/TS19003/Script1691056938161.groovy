@@ -130,6 +130,8 @@ Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.
 
 Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.widget.CheckedTextView - Gaji'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.widget.TextView - Lanjut'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.widget.TextView - Lajang'), 0)
@@ -162,4 +164,6 @@ Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.
 Mobile.tap(findTestObject('Object Repository/Paylater/Aktivasi paylater/android.widget.CheckedTextView - Ya'), 0)
 
 Mobile.tap(findTestObject('Paylater/Aktivasi paylater/android.widget.TextView - Lanjut'), 0)
+
+Mobile.tap(findTestObject('Paylater/android.widget.Button - YA'), 0)
 

@@ -17,17 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Mobile.startExistingApplication('com.cardlez.id')
 
-WebUI.navigateToUrl('https://hasanah.invelli.com/general/adminlogin/')
+Mobile.tap(findTestObject('Object Repository/Paylater/Cek pinjaman/android.widget.ImageView (1)'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_username'), 'root@ezkop.co.id')
+Mobile.tap(findTestObject('Object Repository/Paylater/Cek pinjaman/android.widget.TextView - Riwayat Pinjaman'), 0)
 
-'ezkop7891'
-WebUI.setEncryptedText(findTestObject('Object Repository/Registrasi via aktivasi/Page_/input_Sign In_password'), 'VVGKRFI2ycwJz4lQal3dWg==')
+Mobile.tap(findTestObject('Paylater/Cek pinjaman/android.widget.TextView - LND12308016'), 0)
 
-WebUI.click(findTestObject('Object Repository/Registrasi via aktivasi/Page_/button_Login'))
-
-'Press Ctrl+A to select all text in txt_Comment'
-WebUI.sendKeys(findTestObject('txt_Comment'), Keys.chord(Keys.CONTROL, 'f'))
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
